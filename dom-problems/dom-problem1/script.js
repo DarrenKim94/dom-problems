@@ -2,13 +2,8 @@
 
 // Then, write a JavaScript function to set the background color of that paragraph using an "onclick" event added to a button in the UI.
 
-// make a function, get the element by its id.
-
-
-// creat a variable to shorten the code or to call it back later
-const clickButton = document.getElementById('btn')
 
 // write a function that when the button is clicked, the function happens
 btn.onclick = function() {
-    btn.style.backgroundColor = 'red'
-}
+    document.getElementById('btn').style.backgroundColor = 'red';
+};
