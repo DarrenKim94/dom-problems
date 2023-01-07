@@ -8,7 +8,7 @@ btn.onclick = function() {
 // this variable will get he href link from the 'image' id
     const showLink = alpaca.getAttribute('href');
 // when the button is clicked, the actual href will show on the page
-    para.innerText = showLink;
+    para.innerHTML = showLink;
 };
 
 
@@ -19,6 +19,6 @@ const btn = document.getElementById('clickMe');
 const showLink = alpaca.getAttribute('href');
 
 btn.onclick = function() {
-    para.innerText = showLink;
+    para.innerHTML = showLink;
 }
 */
