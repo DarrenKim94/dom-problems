@@ -6,9 +6,9 @@
 
 
 // creat a variable to shorten the code or to call it back later
-const btn = document.getElementById('p1')
+const clickButton = document.getElementById('btn')
 
 // write a function that when the button is clicked, the function happens
-btn.onclick = function () {
+btn.onclick = function() {
     btn.style.backgroundColor = 'red'
 }
