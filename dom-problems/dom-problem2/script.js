@@ -13,4 +13,13 @@ btn.onclick = function() {
 
 
 
+/*Would this solution be ok as well?
+btn.onclick = function() {
+    para.innerHTML = alpaca.getAttribute('href');
+};
+*/
+
+
+
+
 
