@@ -12,13 +12,5 @@ btn.onclick = function() {
 };
 
 
-/* Can I also do it like this???
-const para = document.getElementById('p1');
-const alpaca = document.getElementById ('image');
-const btn = document.getElementById('clickMe');
-const showLink = alpaca.getAttribute('href');
 
-btn.onclick = function() {
-    para.innerHTML = showLink;
-}
-*/
+
